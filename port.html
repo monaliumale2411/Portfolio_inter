@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">MyPortfolio</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero hidden" id="home">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Monali Umale</span></h1>
+    <h3><span id="typing"></span></h3>
+    <!-- <button class="btn" >Download CV</button> -->
+<a href="resume.docx" download class="btn btn2">Download CV</a>
+   
+  </div>
+</section>
+
+<!-- About -->
+<section class="about hidden" id="about">
+  <h2>About Me</h2>
+  <p>I am a passionate web developer creating beautiful and animated websites using modern technologies.</p>
+</section>
+
+<!-- Skills -->
+<section class="skills hidden" id="skills">
+  <h2>My Skills</h2>
+  <div class="skill-box">
+    <div class="skill">
+      <div class="skill-name">
+        <span>HTML</span>
+        <span>92%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-progress" data-progress="90%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">
+        <span>CSS</span>
+        <span>85%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-progress" data-progress="85%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">
+        <span>JavaScript</span>
+        <span>80%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-progress" data-progress="80%"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="projects hidden" id="projects">
+  <!-- <h2>Projects</h2> -->
+  <!-- <div class="project-container">
+    <div class="project-card">Project 1</div>
+    <div class="project-card">Project 2</div>
+    <div class="project-card">Project 3</div>
+  </div> -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="n9.jpeg" >
+                <div class="layer">
+                    <h3>Quick Notes</h3>
+                    <p>Quick Notes is my First Project ,in Which i use HTML,CSS & JS this project is useful for saving Notes.In Which We are edit the notes!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="mm4.jpg" >
+                <div class="layer">
+                    <h3>Bank Management System</h3>
+                    <p>The Bank management System are help to manage banking in online mode. in this project we are use MysqL Database</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="mm5.jpg" >
+                
+                <div class="layer">
+                    <h3>Hospital Management System</h3>
+                    <p>Developed a Java-based application with a MySQL backend to manage the Accuracy for Patient.this Project are Helps to manage Hospital  system!</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+             <div class="work">
+                <img src="mm4.jpg" >
+                <div class="layer">
+                    <h3>Heart Disease Prediction </h3>
+                    <p>Built a machine learning–based predictive model using hybrid feature selection and ensemble learning techniques to identify heart disease risk from patient health data, integrated with a
+                       web application using frontend, backend, and MySQL database for managing patient and doctor records.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+
+ </div> 
+</section>
+
+<!-- Contact -->
+<section class="contact hidden" id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: monaliumale58@email.com</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
